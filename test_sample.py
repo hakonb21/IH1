@@ -19,6 +19,8 @@ def test_mod_3():
     assert fizzbuzz(9) == "Fizz"
 
 
+def test_when_not_divisible():
+    assert fizzbuzz(7) == 7
 
 
 
